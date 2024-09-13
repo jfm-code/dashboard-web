@@ -1,4 +1,4 @@
-# Dashboard Webv
+# Dashboard Web
 This project is a web-based dashboard built using Next.js for the frontend and Django for the backend. The dashboard features multiple charts (Line Chart, Bar Chart, Pie Chart, and Candlestick Chart), with data fetched from a Django API.
 
 The frontend is developed using TypeScript for type safety and better development experience.
