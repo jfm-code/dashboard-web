@@ -1,12 +1,9 @@
-// src/app/components/line_chart.tsx
-
-"use client";  // Ensure the component is marked as client-side
+"use client";
 
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Line } from 'react-chartjs-2';
 
-// Import and register required Chart.js components
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -18,7 +15,6 @@ import {
   Legend
 } from 'chart.js';
 
-// Register the components
 ChartJS.register(
   CategoryScale,
   LinearScale,
